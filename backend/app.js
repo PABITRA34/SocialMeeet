@@ -7,6 +7,8 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 // Using Middlewares
+// cookieParser() is also a midleware
+// express.json(): This is a built-in middleware in Express.js used to parse incoming JSON data from the body of HTTP requests
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ limit: "50mb", extended: true }));
 app.use(cookieParser());

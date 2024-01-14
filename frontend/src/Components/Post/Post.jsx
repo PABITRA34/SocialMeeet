@@ -160,6 +160,7 @@ const Post = ({
               userId={like._id}
               name={like.name}
               avatar={like.avatar.url}
+              // avatar="https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15-1024x768.jpg"
             />
           ))}
         </div>

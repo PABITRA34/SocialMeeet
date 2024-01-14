@@ -7,6 +7,8 @@ import { loadUser } from "../../Actions/User";
 import "./NewPost.css";
 const NewPost = () => {
   const [image, setImage] = useState(null);
+  // const [image, setImage] = useState("https://www.clipartbest.com/cliparts/Rid/g9d/Ridg9dbpT.png");
+  
   const [caption, setCaption] = useState("");
 
   const { loading, error, message } = useSelector((state) => state.like);

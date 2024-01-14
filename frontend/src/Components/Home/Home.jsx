@@ -72,8 +72,9 @@ const Home = () => {
             <User
               key={user._id}
               userId={user._id}
-              name={user.name}
+              name={user.name} 
               avatar={user.avatar.url}
+              // avatar="https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15-1024x768.jpg"
             />
           ))
         ) : (

@@ -16,7 +16,7 @@ const ResetPassword = () => {
     e.preventDefault();
     dispatch(resetPassword(params.token, newPassword));
   };
-
+ 
   useEffect(() => {
     if (error) {
       alert.error(error);

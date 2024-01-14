@@ -9,7 +9,8 @@ import { useAlert } from "react-alert";
 const Register = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [avatar, setAvatar] = useState("");
+  const [avatar, setAvatar] = useState(null);
+  // const [avatar, setAvatar] = useState("https://wonderfulengineering.com/wp-content/uploads/2014/10/image-wallpaper-15-1024x768.jpg");
   const [password, setPassword] = useState("");
 
   const dispatch = useDispatch();
